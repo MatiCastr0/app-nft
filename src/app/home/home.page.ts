@@ -8,7 +8,8 @@ import { Nft } from '../interfaces/interfaces';
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
-export class HomePage implements OnInit {
+export class HomePage implements OnInit
+{
   getdata: Nft[] = [];
 
   constructor(private _services: GetapiService){}
